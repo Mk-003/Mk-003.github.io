@@ -102,7 +102,7 @@ body {
   nav {
     display: flex;
     justify-content: flex-end; 
-    background-color: #333;
+    background-color: hsl(0, 79%, 26%);
     padding: 10px;
     border-radius: 13px;
     width: 70%;
@@ -116,3 +116,4 @@ body {
     cursor: pointer;
     
   }
+  
