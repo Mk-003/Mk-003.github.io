@@ -126,3 +126,23 @@ function toggleHomeContent() {
         homeContent.innerHTML = "Welcome to the Home Page.We are committed to notifying the weather in your country and globally.";
     }
     
+    window.onload = function() {
+        // Event listener for the "Home" link or button click
+        document.getElementById('homeLink').addEventListener('click', function () {
+          toggleHomeContent();
+        });
+      
+        // Like button handler
+        function toggleLike() {
+          var likeButton = document.getElementById('likeButton');
+          
+          // Toggle the like button state
+          if (likeButton.classList.contains('liked')) {
+            likeButton.classList.remove('liked');
+            likeButton.textContent = 'Like';
+          } else {
+            likeButton.classList.add('liked');
+            likeButton.textContent = 'Liked!';
+          }
+        }
+      };
