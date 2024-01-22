@@ -54,3 +54,13 @@ body {
   .weather-info {
     text-align: center;
   }
+
+  #welcomeHeading {
+    color: hsl(266, 49%, 55%); 
+    font-size: 24px; 
+  }
+  
+  #welcomeText {
+    color: hsl(231, 56%, 51%); 
+    font-size: 16px; 
+  }
