@@ -1,9 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>My Website</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a onclick="showContent('home')">Home</a>
+        <a onclick="showContent('about')">About</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to the Home Page</h2>
+    </section> 
+    <section id="about" style="display: block;">
+    </section>
+    <button id="likeButton" onclick="toggleLike()">Like</button>
+<div class="weather-app">
+  <header>
+    <h1>Weather App</h1>
+  </header>
+  <main>
+    <section class="search">
+      <input type="text" id="cityInput" placeholder="Enter city">
+      <button onclick="getWeather()">Get Weather</button>
+    </section>
+
+    <section class="weather-info" id="weatherInfo">
+      <!-- weather will be displayed -->
+    </section>
+  </main>
+</div>
+<div id="commentSection">
+    <h4>Comments</h4>
+    <ul id="commentList"></ul>
+    <textarea id="commentInput" placeholder="Add a comment"></textarea>
+    <button onclick="addComment()">Add Comment</button>
+  </div>
+
+<script src="weather.js"></script>
+</body>
 </html>
