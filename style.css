@@ -44,7 +44,7 @@ body {
   button {
     padding: 10px;
     font-size: 16px;
-    background-color: #007BFF;
+    background-color: hsla(211, 100%, 50%, 0.37);
     color: #fff;
     border: none;
     cursor: pointer;
