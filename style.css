@@ -1,3 +1,21 @@
 /*Default styles for laptops and mobile phones*/
 @media screen and (max-width: 768px) {}
 @media screen and (max-width: 480px) {}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.istockphoto.com/id/1457076388/vector/plasticine-3d-weather-icons-render-style-sun-cumulus-and-snowflakes-trendy-fluffy-bubbles.jpg?s=612x612&w=0&k=20&c=cOBcHF4uIdShlICEoRmoFufCjWZ9NJFzPAqk7xW8KKM=');
+    background-size: cover;
+  }
+  
+  .weather-app {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #08a7e6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
