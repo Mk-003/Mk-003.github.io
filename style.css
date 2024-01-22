@@ -85,3 +85,17 @@ body {
     list-style-type: none;
     padding: 0;
   }
+
+  #commentList li {
+    margin-bottom: 12px;
+  }
+  
+  #commentInput {
+    width: 60%;
+    margin-top: 10px;
+  }
+  
+  #commentSection button {
+    margin-top: 10px;
+    cursor: pointer;
+  }
