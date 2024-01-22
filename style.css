@@ -75,3 +75,13 @@ body {
     background-color: hsl(313, 39%, 49%); 
     color: white;
   }
+
+  *comment section*/
+  #commentSection {
+    margin-top: 18px;
+  }
+  
+  #commentList {
+    list-style-type: none;
+    padding: 0;
+  }
