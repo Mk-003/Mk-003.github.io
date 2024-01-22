@@ -120,4 +120,9 @@ function toggleHomeContent() {
       function toggleLike() {}
       function getWeather() {}
       function addComment() {}
+    //home btn information
+      function toggleHomeContent() {
+        var homeContent = document.getElementById('homeContent');
+        homeContent.innerHTML = "Welcome to the Home Page.We are committed to notifying the weather in your country and globally.";
+    }
     
