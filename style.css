@@ -64,3 +64,14 @@ body {
     color: hsl(231, 56%, 51%); 
     font-size: 16px; 
   }
+
+  #likeButton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #likeButton.liked {
+    background-color: hsl(313, 39%, 49%); 
+    color: white;
+  }
